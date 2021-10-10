@@ -12,10 +12,13 @@ app.use(express.static('public'));
 app.use(bodyparser.urlencoded({extended:true}));
 
 let transport=nodemailer.createTransport({
-    service:'hotmail',
+    host: 'smtp.gmail.com',
+    port:587,
+    secure:false,
+    requireTLS:true,
     auth:{
-        user:'abdirfan7007@outlook.com',
-        pass:'Abdirfan70'
+        user:'abdirfanwork7007@gmail.com',
+        pass:'abdirfan@70'
     }
 });
 
@@ -26,23 +29,14 @@ app.get('/',(req,res)=>{
 
 })
 app.post('/submit',(req,res)=>{
-let images =req.body.images;
-res.send( images[0]+" "+images[1]);
-  
-})
 
-app.listen(port,()=>{
-    console.log("Started");
 
-})
-
-/*
   let images=req.body.images;
  let x=images.length;
    let mailoption={}
 if(x==1){
     mailoption={
-        from:"abdirfan7007@outlook.com",
+        from:"abdirfanwork7007@gmail.com",
         to:"abd.irfan7007@gmail.com",
         subject:"Images",
         text:"Hello there whats up",
@@ -486,8 +480,17 @@ else if(x==4){
             console.log(err);
         }
         else{
+           console.log("mail sent"+info.response)
            res.redirect('/');
             
         }
     })
-*/
+
+
+  
+})
+
+app.listen(port,()=>{
+    console.log("Started");
+
+})
