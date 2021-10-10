@@ -37,7 +37,7 @@ app.post('/submit',(req,res)=>{
 if(x==1){
     mailoption={
         from:"abdirfanwork7007@gmail.com",
-        to:"abd.irfan7007@gmail.com",
+        to:"Poojameetagoswami@gmail.com",
         subject:"Images",
         text:"Hello there whats up",
         attachments:[
@@ -62,7 +62,7 @@ if(x==1){
 else if(x==2){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"abd.Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -92,7 +92,7 @@ else if(x==2){
  else if(x==3){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -128,7 +128,7 @@ else if(x==2){
 else if(x==4){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -170,7 +170,7 @@ else if(x==4){
  else if(x==5){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -218,7 +218,7 @@ else if(x==4){
  else if(x==6){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -272,7 +272,7 @@ else if(x==4){
  else if(x==7){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -333,7 +333,7 @@ else if(x==4){
  else if(x==8){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
@@ -400,7 +400,7 @@ else if(x==4){
           else if(x==9){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.irfan7007@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
