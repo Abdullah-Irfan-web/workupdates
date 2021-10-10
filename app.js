@@ -27,7 +27,7 @@ app.get('/',(req,res)=>{
 })
 app.post('/submit',(req,res)=>{
 let images =req.body.images;
-res.send( images[0]);
+res.send( images[0]+" "+images[1]);
   
 })
 
