@@ -1,0 +1,36 @@
+*{
+    margin: 0px,0px;
+    padding:0px,0px;
+
+}
+.form .firstrow div{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.form .secondrow div{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.form .thirdrow div{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:380px){
+
+   
+    .firstrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdrow{
+        display: flex;
+        flex-direction: column;
+    }
+   
+  
+}
