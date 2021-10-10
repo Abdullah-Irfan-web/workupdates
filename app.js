@@ -476,7 +476,8 @@ else if(x==4){
             console.log(err);
         }
         else{
-            console.log("Mail sent");
+           res.redirect('/');
+            
         }
     })
 })
