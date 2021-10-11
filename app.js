@@ -62,7 +62,7 @@ if(x==1){
 else if(x==2){
      mailoption={
          from:"abdirfan7007@outlook.com",
-         to:"abd.Poojameetagoswami@gmail.com",
+         to:"Poojameetagoswami@gmail.com",
          subject:"Images",
          text:"Hello there whats up",
          attachments:[
